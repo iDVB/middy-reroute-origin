@@ -1,7 +1,7 @@
 import middy from 'middy';
 import _reduce from 'lodash.reduce';
 import dotProp from 'dot-prop-immutable';
-import { rerouteOrigin } from '.';
+import rerouteOrigin from '.';
 import merge from './utils/deepmerge';
 import { eventResponse } from './tests/responses';
 
